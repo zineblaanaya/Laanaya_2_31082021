@@ -129,7 +129,7 @@ a{
   color: black ;
 }
 .search_form_submit_input, .search_form_submit_input_2 {
-  background-color: #0065FC;
+  background-color: var(--main-blue);
   color: white;
   font-weight: bold;
   border: none;
@@ -210,7 +210,7 @@ a{
   margin-right: 1rem;
 }
 .searchResultWrapiconIcon {
-  color: #0065FC;
+  color: var(--main-blue);
 }
 .searchResultText {
   margin: 0;
