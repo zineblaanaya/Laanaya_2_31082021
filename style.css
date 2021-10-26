@@ -5,8 +5,11 @@
 }
 
 h3{
-    font-size: 15px;
+   font-size: 16px;   
 }
+
+
+
 /* Css Général */
 
 body{
@@ -220,6 +223,7 @@ a{
 
 /* Section Hébergements */
 
+
 .hostingWrapper, .hostingPopular, .hostingMain {
   background-color: var(--bg-grey);
   border-radius: 1.5rem;
@@ -266,15 +270,16 @@ a{
   max-height: 100%;
   border-radius: 1rem 1rem 0 0;
 }
-.hostingMainCardFigureCaptionTitle {
+.hostingMainCardFigureCaptionTitle { 
   margin: 0.25rem 0.75rem 0 0.75rem;
-  
 }
+
 .hostingMainCardDesc {
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+  font-weight:lighter;
 }
 .hostingMainCardDescPrice {
-  font-weight: bold;
+  font-weight: bolder;
 }
 .hostingMainCardGrade {
   margin: 0 0.75rem 0.25rem 0.75rem;
@@ -286,7 +291,7 @@ a{
   color: var(--bg-grey);
 }
 .hostingMainViewmore {
-  font-weight: bold;
+  font-weight: bolder;
 }
 .hostingPopular {
   display: grid;
@@ -298,6 +303,10 @@ a{
   margin: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.hostingMainCardDescPrice{
+  font-weight: bold;
 }
 .hostingPopularWrapcontent {
   display: flex;
@@ -425,6 +434,7 @@ a{
         border-bottom: 3px transparent solid;
     }
 }
+
 
 /* Header Tablette */
 
