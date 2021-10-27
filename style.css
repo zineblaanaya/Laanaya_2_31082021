@@ -50,7 +50,7 @@ a{
 .header_nav_link{
     padding: 2rem; 
     text-align: center; 
-    font-weight: 500;
+    font-weight: 400;
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 }
@@ -465,13 +465,18 @@ a{
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .searchFiltersTitle {
     width: 100%;
   }
   .searchFiltersFilter {
-    margin-right: 1rem;
+    margin-right: 5px;
   }
+
+#box2{
+  display: flex;
+}
+
 }
 
 /* Recherche Tablette */
@@ -484,8 +489,6 @@ a{
     display: none;
   }
 }
-
-
 
 /* Section Hébergements */
 
