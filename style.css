@@ -449,6 +449,23 @@ a{
 
 /* Recherche Mobile */
 
+@media (max-width: 375px) {
+
+  .searchFilters {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    width: 115%;
+  }
+  .searchFiltersTitle {
+    margin: 0 2rem 1rem 0;
+    display: flex;
+    align-items: center;
+  
+  }
+
+}
+
 @media screen and (max-width: 600px) {
   .searchForm {
     display: flex;
@@ -465,7 +482,9 @@ a{
   }
 }
 
+
 @media screen and (max-width: 600px) {
+  
   .searchFiltersTitle {
     width: 100%;
   }
@@ -473,11 +492,11 @@ a{
     margin-right: 5px;
   }
 
-#box2{
-  display: flex;
 }
 
-}
+
+
+
 
 /* Recherche Tablette */
 
